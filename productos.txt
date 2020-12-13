@@ -1,0 +1,4 @@
+Móvil:300
+Ordenador:900
+Teclado:50
+Ratón:70

@@ -1,0 +1,2 @@
+correo:contraseña:nombre:direccion:telefono:visa
+a:a:a:a:a:a
