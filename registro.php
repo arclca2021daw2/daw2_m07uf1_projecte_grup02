@@ -18,12 +18,6 @@ if(file_exists($nombre_archivo)){
          fwrite($archivo,$linea."\r\n");
          fclose($archivo);
 
-         $linealogin = $user.':'.$password;
-
-         $archivologin = fopen("login.txt", "a");
-         fwrite($archivologin, $linealogin."\r\n");
-         fclose($archivologin);
-
          session_start();
          $_SESSION['user'] = $user;
          $_SESSION['identificador'] = TRUE;
